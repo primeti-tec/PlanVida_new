@@ -79,14 +79,14 @@ const Depoimentos = () => {
 
   return (
     <section
-      className="py-20 bg-planvida-light overflow-hidden"
+      className="py-12 md:py-20 bg-planvida-light overflow-hidden"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
       <div className="container mx-auto px-4">
 
         {/* Título */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-8 md:mb-14">
           <p className="font-body text-planvida-olive font-semibold text-sm tracking-widest uppercase mb-3">Depoimentos</p>
           <h2 className="font-heading font-black text-planvida-brown text-3xl md:text-4xl mb-4">
             O que Nossos Pacientes Dizem

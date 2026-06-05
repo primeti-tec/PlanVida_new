@@ -32,17 +32,17 @@ const AppointmentStrip = () => {
   };
 
   return (
-    <section className="bg-planvida-brown py-[10px]">
+    <section className="bg-planvida-brown py-3 lg:py-[10px]">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-4">
+        <div className="flex flex-col lg:flex-row items-center gap-3 lg:gap-4">
           <div className="flex items-center gap-3 text-white shrink-0">
-            <Calendar className="h-6 w-6 text-planvida-gold" />
-            <span className="font-heading font-bold text-lg whitespace-nowrap">Agendar Consulta</span>
+            <Calendar className="h-5 w-5 text-planvida-gold" />
+            <span className="font-heading font-bold text-base lg:text-lg whitespace-nowrap">Agendar Consulta</span>
           </div>
 
           <div className="hidden lg:block w-px h-10 bg-white/20 mx-2" />
 
-          <div className="flex flex-col sm:flex-row flex-wrap gap-3 flex-1 w-full">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-2 lg:gap-3 flex-1 w-full">
             <input
               type="text"
               placeholder="Seu nome"
@@ -71,7 +71,7 @@ const AppointmentStrip = () => {
             <button
               type="button"
               onClick={handleSolicitar}
-              className="bg-planvida-olive hover:bg-planvida-brown active:scale-95 text-white font-body font-semibold text-sm px-8 py-2.5 rounded-md transition-all duration-200 cursor-pointer min-h-[44px] whitespace-nowrap shadow-sm hover:shadow-md border border-planvida-gold/30"
+              className="w-full sm:w-auto bg-planvida-olive hover:bg-planvida-brown active:scale-95 text-white font-body font-semibold text-sm px-8 py-2.5 rounded-md transition-all duration-200 cursor-pointer min-h-[44px] whitespace-nowrap shadow-sm hover:shadow-md border border-planvida-gold/30"
             >
               Solicitar
             </button>

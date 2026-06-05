@@ -9,7 +9,6 @@ const equipe = [
   { nome: "Dr. Daniel Peralba",             cargo: "Proctologia",               crm: "CRM 20.611/PA", iniciais: "DP", link: "/equipe/dr-daniel-peralba",      foto: "/lovable-uploads/profissionais/dr-daniel-peralba.jpeg",     fotoPos: "object-top" },
   { nome: "Dr. Vandré Von Rondon",          cargo: "Ortopedia e Traumatologia", crm: "CRM 12.487/PA", iniciais: "VV", link: "/equipe/dr-vandre-von-rondon",   foto: "/lovable-uploads/profissionais/dr-vandre-von-rondon.jpeg",  fotoPos: "object-top" },
   { nome: "Dra. Raquel Guimarães",          cargo: "Endocrinologia",            crm: "CRM 19.113/PA", iniciais: "RG", link: "/equipe/dra-raquel-guimaraes",   foto: "/lovable-uploads/profissionais/dra-raquel-guimaraes.jpeg",  fotoPos: "object-top" },
-  { nome: "Dra. Camila Resende",            cargo: "Endocrinologia",            crm: "CRM PA",        iniciais: "CR", link: "/equipe/dra-camila-resende",      foto: "/lovable-uploads/profissionais/dra-camila-resende.jpeg",    fotoPos: "object-top" },
   { nome: "Dr. Roberto Almeida Junior",     cargo: "Ginecologia e Obstetrícia", crm: "CRM 14.596/PA", iniciais: "RA", link: "/equipe/dr-roberto-almeida",      foto: "/lovable-uploads/profissionais/dr-roberto-almeida.jpg",     fotoPos: "object-top" },
 ];
 
@@ -17,7 +16,7 @@ const EquipeSection = () => {
   const { ref, inView } = useInView();
 
   return (
-    <section id="equipe" ref={ref as any} className="py-20 bg-planvida-light overflow-hidden">
+    <section id="equipe" ref={ref as any} className="py-12 md:py-20 bg-planvida-light overflow-hidden">
       <div className="container mx-auto px-4">
 
         {/* Título */}

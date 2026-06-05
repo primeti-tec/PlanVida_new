@@ -79,7 +79,7 @@ const Exames = () => {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-20">
+      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
           <span className="inline-block text-xs font-body font-semibold tracking-widest uppercase text-planvida-amber mb-4">Clínica PlanVida</span>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-planvida-brown mb-4">
@@ -94,7 +94,7 @@ const Exames = () => {
       </section>
 
       {/* Banner Laboratório */}
-      <section className="bg-planvida-brown py-12">
+      <section className="bg-planvida-brown py-8 md:py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div className="flex flex-col items-center gap-3">
@@ -123,7 +123,7 @@ const Exames = () => {
       </section>
 
       {/* Cards de Exames */}
-      <section className="py-16 bg-planvida-light">
+      <section className="py-10 md:py-16 bg-planvida-light">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold text-planvida-brown text-center mb-12">
             Exames Disponíveis
@@ -164,7 +164,7 @@ const Exames = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-planvida-amber text-center">
+      <section className="py-10 md:py-16 bg-planvida-amber text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold text-white mb-4">
             Agende seu Exame Agora

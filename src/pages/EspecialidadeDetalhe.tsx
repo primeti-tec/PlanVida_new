@@ -99,7 +99,7 @@ const EspecialidadeDetalhe = () => {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-20">
+      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-12 md:py-20">
         <div
           ref={heroRef.ref as any}
           className={`container mx-auto px-4 text-center transition-all duration-500 ${heroRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
@@ -121,7 +121,7 @@ const EspecialidadeDetalhe = () => {
       {/* Intro + Conteúdo */}
       <section
         ref={conteudoRef.ref as any}
-        className="py-16 bg-white"
+        className="py-10 md:py-16 bg-white"
       >
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -151,7 +151,7 @@ const EspecialidadeDetalhe = () => {
       {/* Quando Consultar */}
       <section
         ref={quandoRef.ref as any}
-        className="py-16 bg-planvida-light"
+        className="py-10 md:py-16 bg-planvida-light"
       >
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -199,7 +199,7 @@ const EspecialidadeDetalhe = () => {
       </section>
 
       {/* CTA final */}
-      <section className="py-16 bg-planvida-olive text-center">
+      <section className="py-10 md:py-16 bg-planvida-olive text-center">
         <div className="container mx-auto px-4">
           <h2 className="font-heading font-bold text-white text-3xl mb-4">
             Pronto para agendar sua consulta?

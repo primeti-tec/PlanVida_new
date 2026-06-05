@@ -19,7 +19,7 @@ const EspecialidadesSection = () => {
   const { ref, inView } = useInView();
 
   return (
-    <section id="especialidades" ref={ref as any} className="py-20 bg-white overflow-hidden">
+    <section id="especialidades" ref={ref as any} className="py-12 md:py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
 
         {/* Título */}

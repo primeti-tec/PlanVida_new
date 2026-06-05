@@ -27,7 +27,7 @@ const ProfissionalDetalhe = () => {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-20">
+      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-12 md:py-20">
         <div
           ref={heroRef.ref as any}
           className={`container mx-auto px-4 transition-all duration-500 ${heroRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
@@ -44,7 +44,7 @@ const ProfissionalDetalhe = () => {
             {/* Foto / Avatar grande */}
             <div className={`flex justify-center transition-all duration-500 ${heroRef.inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
               style={{ transitionDelay: "100ms" }}>
-              <div className="relative">
+              <div className="relative mb-6 lg:mb-0">
                 {prof.foto ? (
                   <img
                     src={prof.foto}
@@ -95,7 +95,7 @@ const ProfissionalDetalhe = () => {
       </section>
 
       {/* Bio */}
-      <section ref={bioRef.ref as any} className="py-16 bg-white">
+      <section ref={bioRef.ref as any} className="py-10 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div className={`transition-all duration-500 ${bioRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
@@ -110,7 +110,7 @@ const ProfissionalDetalhe = () => {
       </section>
 
       {/* Formação + Atuação */}
-      <section ref={formRef.ref as any} className="py-16 bg-planvida-light">
+      <section ref={formRef.ref as any} className="py-10 md:py-16 bg-planvida-light">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 
@@ -160,7 +160,7 @@ const ProfissionalDetalhe = () => {
 
       {/* Especialidades vinculadas */}
       {prof.especialidadesLinks.length > 0 && (
-        <section ref={atuacaoRef.ref as any} className="py-16 bg-white">
+        <section ref={atuacaoRef.ref as any} className="py-10 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className={`mb-8 transition-all duration-500 ${atuacaoRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
@@ -190,7 +190,7 @@ const ProfissionalDetalhe = () => {
       )}
 
       {/* CTA */}
-      <section className="py-16 bg-planvida-olive text-center">
+      <section className="py-10 md:py-16 bg-planvida-olive text-center">
         <div className="container mx-auto px-4">
           <h2 className="font-heading font-bold text-white text-3xl mb-4">
             Agende sua consulta com {prof.nome.split(" ")[0]} {prof.nome.split(" ")[1]}

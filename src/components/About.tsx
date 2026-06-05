@@ -11,7 +11,7 @@ const About = () => {
   const { ref, inView } = useInView();
 
   return (
-    <section id="sobre" ref={ref as any} className="py-20 bg-planvida-light overflow-hidden">
+    <section id="sobre" ref={ref as any} className="py-12 md:py-20 bg-planvida-light overflow-hidden">
       <div className="container mx-auto px-4">
 
         {/* Título */}

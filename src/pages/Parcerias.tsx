@@ -12,7 +12,7 @@ const Parcerias = () => {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-20">
+      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
           <span className="inline-block text-xs font-body font-semibold tracking-widest uppercase text-planvida-amber mb-4">Clínica PlanVida</span>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-planvida-brown mb-4">
@@ -27,7 +27,7 @@ const Parcerias = () => {
       </section>
 
       {/* LIFEMED */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -75,7 +75,7 @@ const Parcerias = () => {
       </section>
 
       {/* CASHBACK */}
-      <section className="py-16 bg-planvida-olive">
+      <section className="py-10 md:py-16 bg-planvida-olive">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-6">
@@ -106,7 +106,7 @@ const Parcerias = () => {
       </section>
 
       {/* Descontos NSI */}
-      <section className="py-16 bg-planvida-light">
+      <section className="py-10 md:py-16 bg-planvida-light">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8 justify-center">
@@ -131,7 +131,7 @@ const Parcerias = () => {
       </section>
 
       {/* PlanVida Funerária */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

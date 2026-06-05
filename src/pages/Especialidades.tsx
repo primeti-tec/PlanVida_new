@@ -57,7 +57,7 @@ const especialidades = [
     icon: Dna,
     nome: "Endocrinologia",
     slug: "endocrinologia",
-    medico: "Dra. Raquel Guimarães / Dra. Camila Resende",
+    medico: "Dra. Raquel Guimarães",
     descricao: "Diagnóstico e tratamento de distúrbios hormonais e metabólicos com foco na qualidade de vida.",
     expandida: true,
     detalhes: [
@@ -193,7 +193,7 @@ const Especialidades = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-planvida-light">
+      <section className="py-10 md:py-16 bg-planvida-light">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {especialidades.map((esp, i) => (
@@ -203,7 +203,7 @@ const Especialidades = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-planvida-olive text-white text-center">
+      <section className="py-10 md:py-16 bg-planvida-olive text-white text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold mb-4">Pronto para cuidar da sua saúde?</h2>
           <p className="text-planvida-cream mb-8 max-w-xl mx-auto">

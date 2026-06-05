@@ -63,15 +63,6 @@ const equipe = [
     iniciais: "RG",
   },
   {
-    nome: "Dra. Camila Resende",
-    especialidade: "Endocrinologia",
-    crm: "CRM PA",
-    descricao: "Especialista em endocrinologia com foco em saúde metabólica e hormonal.",
-    link: "/equipe/dra-camila-resende",
-    foto: "/lovable-uploads/profissionais/dra-camila-resende.jpeg",
-    iniciais: "CR",
-  },
-  {
     nome: "Dr. Roberto Silva Almeida Junior",
     especialidade: "Ginecologia e Obstetrícia",
     crm: "CRM 14.596/PA",
@@ -108,7 +99,7 @@ const Especialistas = () => {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-20">
+      <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
           <span className="inline-block text-xs font-body font-semibold tracking-widest uppercase text-planvida-amber mb-4">Clínica PlanVida</span>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-planvida-brown mb-4">
@@ -123,7 +114,7 @@ const Especialistas = () => {
       </section>
 
       {/* Cards da Equipe */}
-      <section className="py-16 bg-planvida-light">
+      <section className="py-10 md:py-16 bg-planvida-light">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {equipe.map((prof, i) => (
@@ -166,7 +157,7 @@ const Especialistas = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-planvida-olive text-center">
+      <section className="py-10 md:py-16 bg-planvida-olive text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold text-white mb-4">
             Agende com um de Nossos Especialistas

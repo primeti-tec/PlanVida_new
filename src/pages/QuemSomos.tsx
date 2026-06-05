@@ -39,7 +39,7 @@ const numeros = [
 const Historia = () => {
   const { ref, inView } = useInView();
   return (
-    <section ref={ref as any} className="py-20 bg-white overflow-hidden">
+    <section ref={ref as any} className="py-12 md:py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -117,7 +117,7 @@ const Historia = () => {
 const Valores = () => {
   const { ref, inView } = useInView();
   return (
-    <section ref={ref as any} className="py-20 bg-planvida-light overflow-hidden">
+    <section ref={ref as any} className="py-12 md:py-20 bg-planvida-light overflow-hidden">
       <div className="container mx-auto px-4">
         <div className={`text-center mb-14 transition-all duration-500 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
           <p className="font-body text-planvida-amber font-semibold text-xs tracking-widest uppercase mb-3">O que nos guia</p>
@@ -154,7 +154,7 @@ const Valores = () => {
 const CTA = () => {
   const { ref, inView } = useInView();
   return (
-    <section ref={ref as any} className="py-20 bg-planvida-olive overflow-hidden">
+    <section ref={ref as any} className="py-12 md:py-20 bg-planvida-olive overflow-hidden">
       <div className={`container mx-auto px-4 text-center transition-all duration-500 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
         <p className="font-body text-planvida-gold font-semibold text-xs tracking-widest uppercase mb-4">Pronto para cuidar de você</p>
         <h2 className="font-heading font-black text-white text-3xl md:text-4xl mb-4">
@@ -187,7 +187,7 @@ const QuemSomos = () => (
     <Header />
 
     {/* Hero */}
-    <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-20">
+    <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-12 md:py-20">
       <div className="container mx-auto px-4 text-center">
         <span className="inline-block text-xs font-body font-semibold tracking-widest uppercase text-planvida-amber mb-4">
           Clínica PlanVida

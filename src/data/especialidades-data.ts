@@ -298,26 +298,6 @@ export const especialidadesData: EspecialidadeData[] = [
           "Osteoporose e menopausa",
         ],
       },
-      {
-        nome: "Dra. Camila Resende",
-        titulo: "Médica Endocrinologista",
-        crm: "CRM PA",
-        iniciais: "CR",
-        foto: "/lovable-uploads/profissionais/dra-camila-resende.jpeg",
-        link: "/equipe/dra-camila-resende",
-        formacao: [
-          "Graduação em Medicina",
-          "Especialização em Endocrinologia e Metabologia",
-          "Formação em Saúde Metabólica e Hormonal",
-        ],
-        atuacao: [
-          "Endocrinologia geral e metabologia",
-          "Resistência insulínica e diabetes",
-          "SOP e distúrbios hormonais femininos",
-          "Tireoide e paratireoide",
-          "Acompanhamento metabólico e hormonal",
-        ],
-      },
     ],
   },
   {

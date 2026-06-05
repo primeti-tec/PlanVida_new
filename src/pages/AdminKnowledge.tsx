@@ -131,12 +131,7 @@ Especialidade: Endocrinologia
 Trata: hipotireoidismo, hipertireoidismo, doença de Graves, tireoidite de Hashimoto, nódulos de tireoide, diabetes tipo 1 e 2, pré-diabetes, resistência insulínica, obesidade, síndrome metabólica, osteoporose, menopausa, andropausa.
 Quando consultar: cansaço excessivo, queda de cabelo, ganho de peso, glicose alterada, nódulo na tireoide, dificuldade para emagrecer, sintomas de menopausa ou andropausa.
 
-6. Dra. Camila Resende — CRM PA
-Especialidade: Endocrinologia
-Trata: endocrinologia geral, SOP, resistência insulínica, diabetes, doenças da tireoide e paratireoide, dislipidemia, distúrbios hormonais femininos.
-Quando consultar: irregularidade menstrual, dificuldade para engravidar, alterações hormonais, controle metabólico.
-
-7. Dr. Daniel Peralba — CRM 20.611/PA
+6. Dr. Daniel Peralba — CRM 20.611/PA
 Especialidade: Proctologia — Membro da SBCP
 Trata: hemorroidas, fissuras e fístulas anais, colonoscopia diagnóstica e terapêutica, polipectomia, constipação crônica, incontinência fecal, rastreamento do câncer colorretal.
 Quando consultar: sangramento retal, dor/coceira/desconforto anal, intestino preso crônico, sensação de evacuação incompleta, colonoscopia preventiva (acima de 45 anos), histórico familiar de câncer colorretal.

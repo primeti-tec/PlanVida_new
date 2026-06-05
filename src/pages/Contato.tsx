@@ -31,7 +31,7 @@ const Contato = () => (
     <Header />
 
     {/* Hero */}
-    <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-20">
+    <section className="bg-gradient-to-br from-planvida-cream via-white to-planvida-light py-12 md:py-20">
       <div className="container mx-auto px-4 text-center">
         <span className="inline-block text-xs font-body font-semibold tracking-widest uppercase text-planvida-amber mb-4">
           Estamos aqui para você
@@ -47,7 +47,7 @@ const Contato = () => (
     </section>
 
     {/* Cards rápidos */}
-    <section className="py-8 bg-white border-b border-planvida-border/30">
+    <section className="py-5 md:py-8 bg-white border-b border-planvida-border/30">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
           <a
@@ -96,7 +96,7 @@ const Contato = () => (
     </section>
 
     {/* Mapa + Informações */}
-    <section className="py-16 bg-planvida-light">
+    <section className="py-10 md:py-16 bg-planvida-light">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
@@ -185,7 +185,7 @@ const Contato = () => (
     </section>
 
     {/* Formulário */}
-    <section className="py-16 bg-white">
+    <section className="py-10 md:py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-xl mx-auto">
 

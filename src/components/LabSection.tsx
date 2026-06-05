@@ -8,7 +8,7 @@ const destaques = [
 ];
 
 const LabSection = () => (
-  <section className="py-20 bg-planvida-olive relative overflow-hidden">
+  <section className="py-12 md:py-20 bg-planvida-olive relative overflow-hidden">
     {/* Decorativo */}
     <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full transform translate-x-32 -translate-y-32" />
     <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full transform -translate-x-24 translate-y-24" />

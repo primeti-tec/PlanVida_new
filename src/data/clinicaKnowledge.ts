@@ -46,7 +46,6 @@ Trata: fraturas, luxações, hérnia de disco, lombalgia, artrose, lesões espor
 ### 6. Endocrinologia
 **Médicas:**
 - Dra. Raquel Guimarães — CRM 19.113/PA | CRM 101211-MG
-- Dra. Camila Resende — CRM PA
 Especialização em endocrinologia e metabologia.
 Trata: hipotireoidismo, hipertireoidismo, doença de Graves, tireoidite de Hashimoto, nódulos de tireoide, diabetes tipo 1 e 2, pré-diabetes, resistência insulínica, obesidade, síndrome metabólica, SOP, osteoporose, menopausa, andropausa.
 **Quando consultar:** cansaço excessivo/queda de cabelo/ganho de peso, glicose ou hemoglobina glicada alteradas, nódulo ou aumento da tireoide, irregularidade menstrual, dificuldade para emagrecer, osteoporose, sintomas de menopausa ou andropausa.

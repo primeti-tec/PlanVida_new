@@ -30,9 +30,9 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicos" className="py-20 bg-planvida-light relative overflow-hidden">
+    <section id="servicos" className="py-12 md:py-20 bg-planvida-light relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-planvida-brown mb-4">
             Nossos Serviços
           </h2>
@@ -43,9 +43,9 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10 md:mb-16">
           {services.map((service, index) => (
-            <div key={index} className="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div key={index} className="bg-white rounded-2xl p-5 md:p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="flex items-center mb-6">
                 <div className="bg-planvida-cream p-3 rounded-full mr-4">
                   <service.icon className="h-8 w-8 text-planvida-amber" />
