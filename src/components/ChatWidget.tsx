@@ -7,6 +7,20 @@ interface Message {
 }
 
 const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
+
+function renderMessageContent(content: string) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const parts = content.split(urlRegex);
+  return parts.map((part, i) =>
+    urlRegex.test(part) ? (
+      <a key={i} href={part} target="_blank" rel="noopener noreferrer" className="underline break-all hover:opacity-80">
+        {part}
+      </a>
+    ) : (
+      <span key={i}>{part}</span>
+    )
+  );
+}
 const MODEL = "openai/gpt-oss-120b:free";
 
 export const KNOWLEDGE_STORAGE_KEY = "planvida_knowledge_prompt";
@@ -34,7 +48,9 @@ async function sendToOpenRouter(messages: Message[]): Promise<string> {
   });
 
   if (!response.ok) {
-    throw new Error("Erro ao comunicar com a IA");
+    const errorBody = await response.text().catch(() => "");
+    console.error("OpenRouter error", response.status, errorBody);
+    throw new Error(`Erro ${response.status}: ${errorBody}`);
   }
 
   const data = await response.json();
@@ -108,7 +124,7 @@ const ChatWidget = () => {
                 </svg>
               </div>
               <div>
-                <p className="text-sm font-semibold leading-tight">Assistente PlanVida</p>
+                <p className="text-sm font-semibold leading-tight">Vida</p>
                 <p className="text-xs text-planvida-amber leading-tight">Online agora</p>
               </div>
             </div>
@@ -134,7 +150,7 @@ const ChatWidget = () => {
                       : "bg-white text-planvida-brown border border-planvida-border rounded-bl-sm shadow-sm"
                   }`}
                 >
-                  {msg.content}
+                  {renderMessageContent(msg.content)}
                 </div>
               </div>
             ))}
