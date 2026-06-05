@@ -62,7 +62,7 @@ const ChatWidget = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Olá! Sou o assistente virtual da Clínica PlanVida. Como posso te ajudar hoje? Pode me contar sua necessidade ou sintoma que eu te oriento ao especialista certo. 😊",
+      content: "Olá! Sou a Vida, assistente virtual da Clínica PlanVida. 😊 Como posso te ajudar hoje? Pode me contar sua necessidade ou sintoma que eu te oriento ao especialista certo.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -124,7 +124,7 @@ const ChatWidget = () => {
                 </svg>
               </div>
               <div>
-                <p className="text-sm font-semibold leading-tight">Vida</p>
+                <p className="text-sm font-semibold leading-tight">Vida — Assistente Virtual</p>
                 <p className="text-xs text-planvida-amber leading-tight">Online agora</p>
               </div>
             </div>
@@ -140,7 +140,7 @@ const ChatWidget = () => {
           </div>
 
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-3 max-h-80" style={{ minHeight: "16rem" }}>
+          <div className="flex-1 overflow-y-auto p-4 space-y-3 max-h-[30rem]" style={{ minHeight: "20rem" }}>
             {messages.map((msg, i) => (
               <div key={i} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
                 <div
